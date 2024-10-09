@@ -28,8 +28,7 @@ LAYER/
 - **Web Frontend** (`flexnet-gx-web/`): Yew-based WebAssembly application
 - **Mobile App** (`flexnet-gx-mobile/`): Rust-based mobile app structure for Android and iOS
 - **Lambda Function** (`flexnet-gx-lambda/`): AWS Lambda functions for serverless backend
-- **Blockchain** (`flexnet-gx-blockchain/`): Implements core blockchain functionality
-- **AVS Component** (`flexnet-gx-blockchain/`): Integrates LayerLabs' AVS toolkit for autonomous verification
+- **Blockchain** (`flexnet-gx-blockchain/`): Implements core blockchain functionality Integrates LayerLabs' AVS toolkit for autonomous verification
 
 ## Prerequisites
 

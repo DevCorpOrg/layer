@@ -1,4 +1,4 @@
-#!/bin/bash
+1#!/bin/bash
 
 set -e
 
@@ -9,7 +9,7 @@ rustup target add x86_64-unknown-linux-musl
 
 # Install components for AVS toolkit
 rustup target add wasm32-wasip1
-cargo install cargo-component wkg --force
+cargo install cargo-component wkg --force 
 wkg config --default-registry wa.dev
 
 # Function to decrypt secret using KMS
